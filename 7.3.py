@@ -1,6 +1,7 @@
 import math
 i=int(input())
-while int(math.sqrt(i))**2!=int(i):
+while math.sqrt(i)**2!=i:
     i=int(input())
 else:
+
     print('полный квадрат')
