@@ -7,4 +7,5 @@ while True:
     if p<t1:
         u+=1
     t1=p
-print(int(u))
+print(u)
+
